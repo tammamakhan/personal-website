@@ -4,7 +4,7 @@ import NavBar from "./components/navbar";
 import Home from "./components/home";
 import Education from "./components/education";
 import Projects from "./components/projects";
-import Contact from "./components/contacts";
+import Contact from "./components/contactInfo";
 import "./App.css";
 
 function App() {

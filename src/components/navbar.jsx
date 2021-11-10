@@ -1,11 +1,16 @@
 import React from "react";
+import { Link, NavLink } from "react-router-dom";
 
 const NavBar = () => {
   return (
     <nav className="bar navbar navbar-expand-lg navbar-light bg-light">
-      <a className="navbar-brand clickable" style={{ marginLeft: "10px" }}>
+      <Link
+        className="navbar-brand clickable"
+        to="/home"
+        style={{ marginLeft: "10px" }}
+      >
         Tammam Khan
-      </a>
+      </Link>
       <button
         className="navbar-toggler"
         type="button"
@@ -19,9 +24,15 @@ const NavBar = () => {
       </button>
       <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
         <div className="navbar-nav">
-          <a className="nav-item nav-link clickable">Projects</a>
-          <a className="nav-item nav-link clickable">Education</a>
-          <a className="nav-item nav-link clickable">About Me</a>
+          <NavLink className="nav-item nav-link" to="/education">
+            Education
+          </NavLink>
+          <NavLink className="nav-item nav-link" to="/projects">
+            Projects
+          </NavLink>
+          <NavLink className="nav-item nav-link" to="/contact">
+            Contact
+          </NavLink>
         </div>
       </div>
     </nav>

@@ -1,9 +1,17 @@
 import React from "react";
+import { getProjects } from "../services/projectService";
 
 function Projects() {
+  const projects = getProjects();
+
   return (
     <div>
-      <h1>Projects</h1>
+      {projects.map((p) => (
+        <div>
+          <h1>{p.name}</h1>
+          <p>{p.description}</p>
+        </div>
+      ))}
     </div>
   );
 }

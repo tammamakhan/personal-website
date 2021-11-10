@@ -4,6 +4,7 @@ import NavBar from "./components/navbar";
 import Home from "./components/home";
 import Education from "./components/education";
 import Projects from "./components/projects";
+import Contact from "./components/contacts";
 import "./App.css";
 
 function App() {
@@ -15,6 +16,7 @@ function App() {
           <Route path="/home" component={Home} />
           <Route path="/education" component={Education} />
           <Route path="/projects" component={Projects} />
+          <Route path="/contact" component={Contact} />
           <Redirect from="/" to="/home" />
         </Switch>
       </div>

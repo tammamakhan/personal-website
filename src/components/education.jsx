@@ -1,9 +1,18 @@
-import React from "react";
+import React, { Fragment } from "react";
+import { getEducation } from "../services/educationService";
 
 function Education() {
+  const education = getEducation();
+
   return (
     <div>
-      <h1>Education</h1>
+      {education.map((edu) => (
+        <div>
+          <h1>{edu.title}</h1>
+          <h3>{edu.header}</h3>
+          <p>{edu.description}</p>
+        </div>
+      ))}
     </div>
   );
 }

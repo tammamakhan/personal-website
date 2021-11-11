@@ -5,7 +5,7 @@ function Contact() {
   const [contactInfo] = useState(getContactInfo());
 
   return (
-    <div>
+    <div className="centerContainer">
       {contactInfo.map((info) => (
         <div key={info.label}>
           <h3>{info.label}</h3>

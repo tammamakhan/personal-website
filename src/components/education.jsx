@@ -5,7 +5,7 @@ function Education() {
   const education = getEducation();
 
   return (
-    <div>
+    <div className="centerContainer">
       {education.map((edu) => (
         <div key={edu.title}>
           <h3>{edu.title}</h3>

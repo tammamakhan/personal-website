@@ -1,15 +1,20 @@
 import React from "react";
 import { getProjects } from "../services/projectService";
+import Project from "./common/project";
 
 function Projects() {
   const projects = getProjects();
 
   return (
-    <div>
+    <div className="centerContainer">
       {projects.map((proj) => (
-        <div key={proj.name}>
-          <h3>{proj.name}</h3>
-          <p>{proj.description}</p>
+        <div key={proj.title}>
+          <Project
+            title={proj.title}
+            languages={proj.languages}
+            description={proj.description}
+            link={proj.link}
+          />
         </div>
       ))}
     </div>

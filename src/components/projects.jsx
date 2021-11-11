@@ -6,10 +6,10 @@ function Projects() {
 
   return (
     <div>
-      {projects.map((p) => (
-        <div>
-          <h1>{p.name}</h1>
-          <p>{p.description}</p>
+      {projects.map((proj) => (
+        <div key={proj.name}>
+          <h3>{proj.name}</h3>
+          <p>{proj.description}</p>
         </div>
       ))}
     </div>

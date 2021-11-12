@@ -9,6 +9,7 @@ const projects = [
     languages: "JavaScript, HTML/CSS, Python",
     description:
       "Currently developing a web messaging application that utilizes RSA 2048 bit and AES 256 bit encryption for live secure communications between various users in channels.\nApplication UI is being designed using the React.js library connected to a MySQL database with a Flask SQLAlchemy RESTful API.",
+    link: "https://github.com/tammamakhan/encrypted-messenger",
     image: encrypted,
   },
   {

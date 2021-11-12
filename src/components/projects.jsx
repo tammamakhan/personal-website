@@ -1,5 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { getProjects } from "../services/projectService";
+import PageDescription from "./common/pageDescription";
+import PageTitle from "./common/pageTitle";
 import Project from "./common/project";
 import Sources from "./common/sources";
 
@@ -13,6 +15,8 @@ function Projects() {
 
   return (
     <div className="centerContainer">
+      <PageTitle title="Projects" />
+      <PageDescription description="Various programming projects I have contributed to throughout my education and career." />
       {projects.map((proj) => (
         <div key={proj.title} className="project">
           <Project

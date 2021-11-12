@@ -38,3 +38,11 @@ code {
   padding-top: 1%;
   padding-bottom: 1%;
 }
+
+.pageTitle {
+  font-weight: 300;
+}
+
+.pageDescription {
+  font-weight: 200;
+}

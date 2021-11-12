@@ -4,11 +4,7 @@ import { Link, NavLink } from "react-router-dom";
 const NavBar = () => {
   return (
     <nav className="navbar navbar-expand-lg navbar-light bg-light">
-      <Link
-        className="navbar-brand clickable"
-        to="/home"
-        style={{ marginLeft: "10px" }}
-      >
+      <Link className="navbar-brand clickable" to="/home">
         Tammam Khan
       </Link>
       <button

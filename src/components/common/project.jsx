@@ -18,6 +18,11 @@ const Project = ({ title, languages, description, link, image }) => {
                 View Code
               </a>
             )}
+            {!link && (
+              <a href={null} className="btn btn-secondary disabled">
+                Code Not Available
+              </a>
+            )}
           </div>
         </div>
       </div>

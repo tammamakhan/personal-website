@@ -15,7 +15,7 @@ const Project = ({ title, languages, description, link, image }) => {
             <p className="card-text">{description}</p>
             {link && (
               <a href={link} className="btn btn-primary">
-                View Source Code
+                View Code
               </a>
             )}
           </div>

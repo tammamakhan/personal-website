@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { getProjects } from "../services/projectService";
 import Project from "./common/project";
+import Sources from "./common/sources";
 
 function Projects() {
   const [projects, setProjects] = useState([]);
@@ -23,23 +24,7 @@ function Projects() {
           />
         </div>
       ))}
-      <div style={{ textAlign: "center", paddingBottom: 10 }}>
-        Icons made by{" "}
-        <a
-          href="https://www.flaticon.com/authors/pixel-perfect"
-          title="Pixel perfect"
-        >
-          Pixel perfect
-        </a>
-        {" and "}
-        <a href="https://www.freepik.com" title="Freepik">
-          Freepik
-        </a>{" "}
-        from{" "}
-        <a href="https://www.flaticon.com/" title="Flaticon">
-          www.flaticon.com
-        </a>
-      </div>
+      <Sources />
     </div>
   );
 }

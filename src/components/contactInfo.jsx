@@ -20,7 +20,7 @@ function Contact() {
         <PageDescription description="Want to get in touch? Here's a few ways you can reach out to me..." />
       </div>
       <hr />
-      <div className="row">
+      <div className="row centered" style={{ paddingTop: 10 }}>
         {contactInfo.map((info) => (
           <div className="col" key={info.label} style={{ paddingBottom: 20 }}>
             <ContactItem

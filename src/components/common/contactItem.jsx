@@ -2,7 +2,7 @@ import React from "react";
 
 const ContactItem = ({ label, link, description, image }) => {
   return (
-    <div className="card border-0 bg-light centered" style={{ width: "20rem" }}>
+    <div className="card border-0 bg-light centered">
       <img
         src={image}
         className="card-img-top roundImg"

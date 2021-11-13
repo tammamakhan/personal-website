@@ -1,7 +1,7 @@
 import React from "react";
 import { Route, Switch, Redirect } from "react-router-dom";
 import NavBar from "./components/navbar";
-import Home from "./components/home";
+import About from "./components/about";
 import Education from "./components/education";
 import Projects from "./components/projects";
 import Contact from "./components/contactInfo";
@@ -13,11 +13,11 @@ function App() {
       <NavBar />
       <div className="content">
         <Switch>
-          <Route path="/home" component={Home} />
+          <Route path="/about" component={About} />
           <Route path="/education" component={Education} />
           <Route path="/projects" component={Projects} />
           <Route path="/contact" component={Contact} />
-          <Redirect from="/" to="/home" />
+          <Redirect from="/" to="/about" />
         </Switch>
       </div>
     </React.Fragment>

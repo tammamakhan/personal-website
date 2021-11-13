@@ -36,8 +36,8 @@ export function getEducation() {
   return educations;
 }
 
-const educationObject = {
+const educationServiceObject = {
   getEducation,
 };
 
-export default educationObject;
+export default educationServiceObject;

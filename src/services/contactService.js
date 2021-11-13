@@ -24,8 +24,8 @@ export function getContactInfo() {
   return contactInfo;
 }
 
-const contactInfoObject = {
+const contactServiceObject = {
   getContactInfo,
 };
 
-export default contactInfoObject;
+export default contactServiceObject;

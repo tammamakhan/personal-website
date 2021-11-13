@@ -41,8 +41,8 @@ export function getProjects() {
   return projects;
 }
 
-const projectsObject = {
+const projectServiceObject = {
   getProjects,
 };
 
-export default projectsObject;
+export default projectServiceObject;

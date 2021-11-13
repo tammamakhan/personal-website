@@ -15,8 +15,10 @@ function Projects() {
 
   return (
     <div className="centerContainer">
-      <PageTitle title="Projects" />
-      <PageDescription description="Various programming projects I have contributed to throughout my education and career." />
+      <div className="container" style={{ paddingBottom: "2.5%" }}>
+        <PageTitle title="Projects" />
+        <PageDescription description="Various programming projects I have contributed to throughout my education and career." />
+      </div>
       {projects.map((proj) => (
         <div key={proj.title} className="project">
           <Project

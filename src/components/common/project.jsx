@@ -5,13 +5,8 @@ const Project = ({ title, languages, description, link, image }) => {
     <div className="card border-0 bg-light">
       <div className="content">
         <div className="row">
-          <div className="col-2">
-            <img
-              src={image}
-              width="218"
-              className="card-img"
-              alt="Project Logo"
-            ></img>
+          <div className="col-2 my-auto">
+            <img src={image} className="card-img" alt="Project Logo"></img>
           </div>
           <div className="col">
             <div className="card-body">

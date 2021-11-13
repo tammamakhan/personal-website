@@ -8,6 +8,10 @@ const Sources = () => {
         Prosymbols
       </a>
       {", "}
+      <a href="https://www.flaticon.com/authors/surang" title="surang">
+        surang
+      </a>
+      {", "}
       <a
         href="https://www.flaticon.com/authors/pixel-perfect"
         title="Pixel perfect"
@@ -30,8 +34,8 @@ export default Sources;
 
 <div>
   Icons made by{" "}
-  <a href="https://www.flaticon.com/authors/prosymbols" title="Prosymbols">
-    Prosymbols
+  <a href="https://www.flaticon.com/authors/surang" title="surang">
+    surang
   </a>{" "}
   from{" "}
   <a href="https://www.flaticon.com/" title="Flaticon">

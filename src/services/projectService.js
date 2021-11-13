@@ -4,6 +4,7 @@ import covid from "../images/coronavirus.png";
 import nebula from "../images/nebula.png";
 import vidly from "../images/vidly.png";
 import database from "../images/database.png";
+import digits from "../images/digits.png";
 
 const projects = [
   {
@@ -27,7 +28,7 @@ const projects = [
     languages: "Python",
     description:
       "Constructed a machine learning model that utilizes deep learning in order to predict Covid-19 cases in the US.\nModel architecture consists of a recurrent neural network that uses LSTM layers with dropout built with the TensorFlow and Keras libraries.",
-    link: "https://github.com/tammamakhan/covid-case-predictor",
+    link: "https://www.kaggle.com/tammamkhan/us-covid-case-predicton-keras-rnn",
     image: covid,
   },
   {
@@ -38,17 +39,25 @@ const projects = [
     image: nebula,
   },
   {
-    title: "RDBMS",
+    title: "Relational Database Management System",
     languages: "C++",
     description:
       "Built up a relational database management system (RDBMS) API within a team during my Database Systems II course. The RDBMS allows for users to optimally store, manage, index, and query relational databases within the system's physical disk storage.",
     image: database,
   },
   {
+    title: "Digit Image Recognizer",
+    languages: "Python",
+    description:
+      "My submission for the Digit Recognizer competition on Kaggle. Machine learning model architecture consists of a convolutional neural network with dropout capable of predicting the digit represented by a hand drawing with an accuracy of 99.435%.",
+    link: "https://www.kaggle.com/tammamkhan/digit-image-recognizer-keras-cnn",
+    image: digits,
+  },
+  {
     title: "Vidly",
     languages: "JavaScript, HTML/CSS",
     description:
-      'Created the frontend for a video rental web application for the "Mastering React" course I completed. Built using various aspects of React.js, Bootstrap components, and ES6 along with user authentication using JSON Web Tokens.',
+      'Created the frontend for a video rental web application for the "Mastering React" course I completed. Constructed using various aspects of React.js such as routing, pagination, filtering, and sorting along with Bootstrap components and ES6. User authentication built using JSON Web Tokens (JWT).',
     link: "https://github.com/tammamakhan/mastering-react-vidly",
     image: vidly,
   },

@@ -22,7 +22,11 @@ function Contact() {
       <hr />
       <div className="row centered" style={{ paddingTop: 10 }}>
         {contactInfo.map((info) => (
-          <div className="col" key={info.label} style={{ paddingBottom: 20 }}>
+          <div
+            className="col centered"
+            key={info.label}
+            style={{ paddingBottom: 20 }}
+          >
             <ContactItem
               label={info.label}
               link={info.link}

@@ -27,7 +27,7 @@ const educations = [
     end: "Current",
     header: "Certification from Code with Mosh (Mosh Hamedani)",
     description:
-      "Currently studying Node modules and packages, creating RESTful APIs with Express, using MongoDB, CRUD operations using Mongoose, and unit testing.",
+      "Currently studying Node modules and packages, creating RESTful APIs with Express, using a document based database with MongoDB, CRUD operations in Mongoose, and unit testing.",
     image: nodejs,
   },
 ];

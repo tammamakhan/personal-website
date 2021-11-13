@@ -11,7 +11,7 @@ function Education() {
   useEffect(() => {
     setEducation(getEducation());
     return () => {};
-  });
+  }, []);
 
   return (
     <div className="centerContainer">
@@ -21,7 +21,7 @@ function Education() {
       </div>
       <hr />
       {education.map((edu) => (
-        <div className="listItem">
+        <div className="listItem" key={edu.title}>
           <EducationItem
             title={edu.title}
             start={edu.start}

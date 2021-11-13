@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import { getContactInfo } from "../services/contactService";
 import ContactItem from "./common/contactItem";
 import PageDescription from "./common/pageDescription";
@@ -6,7 +6,12 @@ import PageTitle from "./common/pageTitle";
 import Sources from "./common/sources";
 
 function Contact() {
-  const [contactInfo] = useState(getContactInfo());
+  const [contactInfo, setContactInfo] = useState([]);
+
+  useEffect(() => {
+    setContactInfo(getContactInfo());
+    return () => {};
+  }, []);
 
   return (
     <div className="centerContainer">

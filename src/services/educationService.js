@@ -36,6 +36,8 @@ export function getEducation() {
   return educations;
 }
 
-export default {
+const educationObject = {
   getEducation,
 };
+
+export default educationObject;

@@ -41,6 +41,8 @@ export function getProjects() {
   return projects;
 }
 
-export default {
+const projectsObject = {
   getProjects,
 };
+
+export default projectsObject;

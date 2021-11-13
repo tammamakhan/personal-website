@@ -11,7 +11,7 @@ function Projects() {
   useEffect(() => {
     setProjects(getProjects());
     return () => {};
-  });
+  }, []);
 
   return (
     <div className="centerContainer">

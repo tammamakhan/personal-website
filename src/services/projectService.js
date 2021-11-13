@@ -2,6 +2,8 @@ import encrypted from "../images/encrypted.png";
 import connectFour from "../images/connect-four.png";
 import covid from "../images/coronavirus.png";
 import nebula from "../images/nebula.png";
+import vidly from "../images/vidly.png";
+import database from "../images/database.png";
 
 const projects = [
   {
@@ -32,8 +34,23 @@ const projects = [
     title: "Volumetric Nebulae",
     languages: "JavaScript, HTML/CSS",
     description:
-      "Developed graphics of an expanding volumetric nebulae cloud in WebGL for a school group project.\nUtilizes techniques such as raymarching and procedural generation within the Three.js 3D graphics library.",
+      "Developed graphics of an expanding volumetric nebulae cloud in WebGL for a group project during a Game Graphics and Real-Time Rendering course.\nUtilizes techniques such as raymarching and procedural generation within the Three.js 3D graphics library.",
     image: nebula,
+  },
+  {
+    title: "RDBMS",
+    languages: "C++",
+    description:
+      "Built up a relational database management system (RDBMS) API within a team during my Database Systems II course. The RDBMS allows for users to optimally store, manage, index, and query relational databases within the system's physical disk storage.",
+    image: database,
+  },
+  {
+    title: "Vidly",
+    languages: "JavaScript, HTML/CSS",
+    description:
+      'Created the frontend for a video rental web application for the "Mastering React" course I completed. Built using various aspects of React.js, Bootstrap components, and ES6 along with user authentication using JSON Web Tokens.',
+    link: "https://github.com/tammamakhan/mastering-react-vidly",
+    image: vidly,
   },
 ];
 

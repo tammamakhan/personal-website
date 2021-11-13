@@ -4,6 +4,10 @@ const Sources = () => {
   return (
     <div style={{ textAlign: "center", paddingBottom: 50, paddingTop: 25 }}>
       Icons made by{" "}
+      <a href="https://www.flaticon.com/authors/prosymbols" title="Prosymbols">
+        Prosymbols
+      </a>
+      {", "}
       <a
         href="https://www.flaticon.com/authors/pixel-perfect"
         title="Pixel perfect"
@@ -23,3 +27,14 @@ const Sources = () => {
 };
 
 export default Sources;
+
+<div>
+  Icons made by{" "}
+  <a href="https://www.flaticon.com/authors/prosymbols" title="Prosymbols">
+    Prosymbols
+  </a>{" "}
+  from{" "}
+  <a href="https://www.flaticon.com/" title="Flaticon">
+    www.flaticon.com
+  </a>
+</div>;

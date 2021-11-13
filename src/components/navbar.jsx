@@ -4,39 +4,40 @@ import { Link, NavLink } from "react-router-dom";
 const NavBar = () => {
   return (
     <nav className="navbar navbar-expand-lg navbar-light bg-light fixed-top">
-      <Link
-        className="navbar-brand clickable"
-        to="/home"
-        style={{ paddingLeft: "2.5%" }}
-      >
+      <Link className="navbar-brand" to="/home" style={{ paddingLeft: "2.5%" }}>
         Tammam Khan
       </Link>
       <button
         className="navbar-toggler"
         type="button"
-        data-toggle="collapse"
-        data-target="#navbarNavAltMarkup"
-        aria-controls="navbarNavAltMarkup"
-        aria-expanded="false"
-        aria-label="Toggle navigation"
+        data-bs-toggle="collapse"
+        data-bs-target="#navbarNav"
       >
         <span className="navbar-toggler-icon"></span>
       </button>
-      <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
-        <div className="navbar-nav">
-          <NavLink className="nav-item nav-link" to="/about">
-            About
-          </NavLink>
-          <NavLink className="nav-item nav-link" to="/education">
-            Education
-          </NavLink>
-          <NavLink className="nav-item nav-link" to="/projects">
-            Projects
-          </NavLink>
-          <NavLink className="nav-item nav-link" to="/contact">
-            Contact
-          </NavLink>
-        </div>
+      <div className="collapse navbar-collapse" id="navbarNav">
+        <ul className="navbar-nav navbar-nav-scroll">
+          <li className="nav-item">
+            <NavLink className="nav-link" to="/about">
+              About
+            </NavLink>
+          </li>
+          <li className="nav-item">
+            <NavLink className="nav-link" to="/education">
+              Education
+            </NavLink>
+          </li>
+          <li className="nav-item">
+            <NavLink className="nav-link" to="/projects">
+              Projects
+            </NavLink>
+          </li>
+          <li className="nav-item">
+            <NavLink className="nav-link" to="/contact">
+              Contact
+            </NavLink>
+          </li>
+        </ul>
       </div>
     </nav>
   );

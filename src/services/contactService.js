@@ -1,6 +1,6 @@
-import linkedin from "../logos/linkedin.png";
-import email from "../logos/email.png";
-import phone from "../logos/phone.png";
+import linkedin from "../images/linkedin.png";
+import email from "../images/email.png";
+import phone from "../images/phone.png";
 
 const contactInfo = [
   {

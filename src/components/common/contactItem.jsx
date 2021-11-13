@@ -2,13 +2,13 @@ import React from "react";
 
 const ContactItem = ({ label, link, description, image }) => {
   return (
-    <div className="card border-0 bg-light" style={{ width: "20rem" }}>
+    <div className="card border-0 bg-light centered" style={{ width: "20rem" }}>
       <img
         src={image}
         className="card-img-top roundImg"
         alt="Contact Logo"
       ></img>
-      <div className="card-body centerText">
+      <div className="card-body">
         <h4 className="card-title">{label}</h4>
         {link && (
           <a href={link} className="card-text">

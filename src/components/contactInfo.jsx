@@ -18,11 +18,11 @@ function Contact() {
       <div className="container" style={{ paddingBottom: 5 }}>
         <PageTitle title="Contact me" />
         <PageDescription description="Want to get in touch? Here's a few ways you can reach out to me..." />
-        <hr />
       </div>
+      <hr />
       <div className="row">
         {contactInfo.map((info) => (
-          <div className="col" key={info.label}>
+          <div className="col" key={info.label} style={{ paddingBottom: 20 }}>
             <ContactItem
               label={info.label}
               link={info.link}

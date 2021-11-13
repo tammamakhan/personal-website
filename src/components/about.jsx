@@ -1,11 +1,14 @@
 import React from "react";
-import programmer from "../logos/programmer.png";
+import programmer from "../images/programmer.png";
 import PageTitle from "./common/pageTitle";
 import PageDescription from "./common/pageDescription";
 
-function About() {
+const About = () => {
   return (
-    <div className="centerContainer centered">
+    <div
+      className="centerContainer centered"
+      style={{ paddingLeft: "20%", paddingRight: "20%" }}
+    >
       <div className="container" style={{ paddingBottom: 5 }}>
         <PageTitle title="Tammam Khan" />
         <PageDescription description="Aspiring Software Engineer" />
@@ -21,6 +24,6 @@ function About() {
       </div>
     </div>
   );
-}
+};
 
 export default About;

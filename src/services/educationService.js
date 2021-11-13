@@ -1,6 +1,6 @@
-import university from "../logos/university.png";
-import reactjs from "../logos/reactjs.png";
-import nodejs from "../logos/nodejs.png";
+import university from "../images/university.png";
+import reactjs from "../images/reactjs.png";
+import nodejs from "../images/nodejs.png";
 
 const educations = [
   {

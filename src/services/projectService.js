@@ -1,7 +1,7 @@
-import encrypted from "../logos/encrypted.png";
-import connectFour from "../logos/connect-four.png";
-import covid from "../logos/coronavirus.png";
-import nebula from "../logos/nebula.png";
+import encrypted from "../images/encrypted.png";
+import connectFour from "../images/connect-four.png";
+import covid from "../images/coronavirus.png";
+import nebula from "../images/nebula.png";
 
 const projects = [
   {

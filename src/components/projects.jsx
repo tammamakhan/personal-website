@@ -15,12 +15,13 @@ function Projects() {
 
   return (
     <div className="centerContainer">
-      <div className="container" style={{ paddingBottom: "2.5%" }}>
+      <div className="container" style={{ paddingBottom: 5 }}>
         <PageTitle title="Projects" />
-        <PageDescription description="Various programming projects I have contributed to throughout my education and career." />
+        <PageDescription description="Below are various programming projects I have contributed to throughout my education and career." />
       </div>
+      <hr />
       {projects.map((proj) => (
-        <div key={proj.title} className="project">
+        <div key={proj.title} className="listItem">
           <Project
             title={proj.title}
             languages={proj.languages}

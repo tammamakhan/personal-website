@@ -2,7 +2,7 @@ import React from "react";
 
 const Sources = () => {
   return (
-    <div style={{ textAlign: "center", paddingBottom: 10 }}>
+    <div style={{ textAlign: "center", paddingBottom: 50, paddingTop: 25 }}>
       Icons made by{" "}
       <a
         href="https://www.flaticon.com/authors/pixel-perfect"

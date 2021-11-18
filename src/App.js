@@ -10,6 +10,7 @@ import "./App.css";
 class App extends React.Component {
   componentDidMount() {
     document.title = "Tammam Khan";
+    console.log(window.innerWidth);
   }
 
   render() {

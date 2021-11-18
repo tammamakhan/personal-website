@@ -15,7 +15,11 @@ const ContactItem = ({ label, link, description, image }) => {
             {link}
           </a>
         )}
-        {description && <p className="card-text">{description}</p>}
+        {description && (
+          <p className="card-text" style={{ whiteSpace: "nowrap" }}>
+            {description}
+          </p>
+        )}
       </div>
     </div>
   );

@@ -1,14 +1,21 @@
 import React from "react";
+import useWindowDimensions from "../../hooks/windowDimensions";
 
 const Project = ({ title, languages, description, link, image }) => {
+  const { width } = useWindowDimensions();
+
   return (
     <div className="card border-0 bg-light">
       <div className="content">
         <div className="row">
-          <div className="col-2 my-auto">
-            <img src={image} className="card-img" alt="Project Logo"></img>
+          <div className={width < 900 ? "row centered" : "col-2 my-auto"}>
+            <img
+              src={image}
+              className={width < 900 ? "card-img small-screen" : "card-img"}
+              alt="Project Logo"
+            ></img>
           </div>
-          <div className="col">
+          <div className={width < 900 ? "row centered" : "col"}>
             <div className="card-body">
               <h4 className="card-title">{title}</h4>
               <h6 className="card-subtitle mb-2 text-muted">{languages}</h6>

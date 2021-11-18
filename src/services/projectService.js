@@ -5,6 +5,7 @@ import nebula from "../images/nebula.png";
 import vidly from "../images/vidly.png";
 import database from "../images/database.png";
 import digits from "../images/digits.png";
+import socialMeda from "../images/social-media.png";
 
 const projects = [
   {
@@ -35,7 +36,7 @@ const projects = [
     title: "Volumetric Nebulae",
     languages: "JavaScript, HTML/CSS",
     description:
-      "Developed graphics of an expanding volumetric nebulae cloud in WebGL for a group project during a Game Graphics and Real-Time Rendering course.\nUtilizes techniques such as raymarching and procedural generation within the Three.js 3D graphics library.",
+      "Developed graphics of an expanding volumetric nebulae cloud in WebGL for a group project during a Game Graphics and Real-Time Rendering course. Utilizes techniques such as raymarching and procedural generation within the Three.js 3D graphics library.",
     image: nebula,
   },
   {
@@ -60,6 +61,13 @@ const projects = [
       'Created the frontend for a video rental web application for the "Mastering React" course I completed. Constructed using various aspects of React.js such as routing, pagination, filtering, and sorting along with Bootstrap components and ES6. User authentication built using JSON Web Tokens (JWT).',
     link: "https://github.com/tammamakhan/mastering-react-vidly",
     image: vidly,
+  },
+  {
+    title: "Social Media Mockup",
+    languages: "Python, JavaScript, HTML/CSS",
+    description:
+      "Built up various parts of a mock social media web application that allows users to create posts and manage posts, as well as like and comment on them in my Web Applications class. Application is build using a py4web backend along with a frontend made using Vue.js components.",
+    image: socialMeda,
   },
 ];
 

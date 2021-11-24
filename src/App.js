@@ -16,7 +16,7 @@ class App extends React.Component {
     return (
       <React.Fragment>
         <NavBar />
-        <div className="content">
+        <div className="content contentMain">
           <Switch>
             <Route path="/about" component={About} />
             <Route path="/education" component={Education} />

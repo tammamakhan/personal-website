@@ -8,7 +8,7 @@ const NavBar = () => {
   const handleNavCollapse = () => setIsNavCollapsed(!isNavCollapsed);
 
   return (
-    <nav className="navbar navbar-expand-sm navbar-light bg-light">
+    <nav className="navbar fixed-top navbar-expand-sm navbar-light bg-light">
       <Link className="navbar-brand" to="/home" style={{ paddingLeft: "2.5%" }}>
         Tammam Khan
       </Link>

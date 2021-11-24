@@ -34,6 +34,10 @@ code {
   padding-right: 10%;
 }
 
+.contentMain {
+  padding-top: 50px;
+}
+
 .listItem {
   padding-top: 1%;
   padding-bottom: 1%;

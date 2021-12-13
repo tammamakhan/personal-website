@@ -21,7 +21,7 @@ const About = () => {
       ></img>
       <hr />
       <div style={{ paddingBottom: 50 }}>
-        <PageDescription description="Computer science graduate from the University of California-Santa Cruz with strong communication and learning skills desires the position of Software Engineer. Bringing knowledge in full-stack development as well as a solid grasp of algorithms, data structures and object-oriented designs." />
+        <PageDescription description="Computer science graduate from the University of California-Santa Cruz with strong communication and learning skills desires the position of Software Engineer. Bringing knowledge in full-stack development, AI and machine learning, as well as a solid grasp of algorithms, data structures and object-oriented designs." />
       </div>
     </div>
   );

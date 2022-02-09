@@ -23,11 +23,11 @@ const educations = [
   },
   {
     title: "The Complete Node.js Course",
-    start: "Oct. 2021",
-    end: "Current",
+    start: "Nov. 2021",
+    end: "Jan. 2022",
     header: "Certification from Code with Mosh (Mosh Hamedani)",
     description:
-      "Currently studying Node modules and packages, creating RESTful APIs with Express, using a document based database with MongoDB, CRUD operations in Mongoose, and unit testing.",
+      "Currently studying Node modules and packages, creating RESTful APIs with Express, using a document based database with MongoDB, CRUD operations in Mongoose, as well as unit and integration testing.",
     image: nodejs,
   },
 ];
